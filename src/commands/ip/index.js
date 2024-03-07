@@ -5,5 +5,5 @@ export const command = new SlashCommandBuilder()
 .setDescription("查看當前伺服器的IP位址");
 
 export const execute = async (interaction) => {
-  await interaction.reply("huanna6969.ddns.net");
+  await interaction.reply(process.env.SERVER_DNS);
 }
