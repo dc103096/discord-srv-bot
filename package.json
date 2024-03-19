@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "vite-node src/main.js"
+    "dev": "vite-node src/main.js",
+    "deploy": "vite-node src/core/deploy-commands.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
